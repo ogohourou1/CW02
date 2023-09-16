@@ -1,0 +1,94 @@
+<html>
+
+	<head>
+		<link rel="stylesheet" href="styles.css">
+		<title> University of Georgia State Example on embedded style sheets</title>
+		<style>
+			Body {
+			font-family : times new roman;
+			margin-left : 20%;
+			margin-right: 20%;
+			text-align : justify;
+			background : ivory; 
+			color : red;
+			}
+			P {
+			text-indent : 2cm;	
+			}
+			h1,h2,h3{ color: red ; marginleft:2cm;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>Exercise 1</h1>
+		<P style="text-indent: 2cm; color: red;">
+		This paragraph has been formatted using the in-line style command.
+		</P>
+		<P>
+		This paragraph has not been formatted using the in-line style command.
+		</P>
+		<h1>Exercise 2</h1>
+		<div class="answer">
+		<p>In exercise 1, the embedded stylesheet had a mistake in the within the body properties and the h1,h2,h3 properties.
+		The was a single quotation mark in the font-family value, and there is a missing semi-colon after the marginleft value.</p>
+		</div>
+		
+		<h1>Exercise 3 (In line styling)</h1>
+		<h2></h2>
+		<h1 style="color:red;margin-left:2cm" >h1 heading</h1>
+		<h2 style="color:red;margin-left:4cm" >h2 subheading</h2>
+		<p style="text-indent:2cm;color:darkred;marginleft:6cm">Paragraph 1</p>
+		<p style="text-indent:2cm;color:darkred;marginleft:6cm">Paragraph 2</p>
+		<h2 style="color:red;margin-left:4cm" >h2 subheading</h2>
+		<p style="text-indent:2cm;color:darkred;marginleft:6cm">Paragraph 1</p>
+		<h1> <a href="Exercise_3_embedding.html">Exercise 3 (Embedded styling)</a></h1>
+		<h1> <a href="Exercise_3_external.html">Exercise 3 (External styling)</a></h1>
+		
+		<h1> <a href="Exercise_4.html">Exercise 4</a></h1>
+		<h1> Exercise 5 </h1>
+		<div class="website">
+			<ul> <h4>HTML tags classes that may be used by The school of Art and Science for the website</h4>
+				<li>body
+					<ul>
+						<li>The body can have attributes such as a background color for the website</li>
+					</ul>
+				</li>
+				<li>h1, h2, h3, ...
+					<ul>
+						<li>The headers can define classes based on their purpose. For examples a header for the course name. Useful attributes for head can be the font, color, or style</li>
+					</ul>
+				</li>
+				<li>a</li>
+				<li>link</li>
+				<li>ul</li>
+				<li>ol</li>
+				<li>table
+					<ul>
+						<li>Tables can use in-line styling to make them coherant on the website for example alignments and background image or color</li>
+						<li>Tables have sub tags like tr and td which can use attributes like rowspan or colspan to customize the tables</li>
+					</ul>
+				</li>
+				<li>style
+					<ul>
+						<li>Teachers can use embedded styles to add further customization to their respective website which will span over the whole website</li>
+						<li> In-line styling is also useful to make direct changes to selectors in case teachers need to over-ride the external or embedded stylesheet</li>
+					</ul>
+				</li>
+				<li>p
+					<ul>
+						<li>Paragraphs can receive atttributes like borders to dinstiguish them</li>
+						<li>Paragraphs also can have attributes which change the text color or change the background color.</li>
+					</ul>
+				</li>
+				<h4>Classes The school of Art and Science may use for the website</h4>
+				<li>table.schedule</li>
+				<li>p.syllabus</li>
+				<li>h.teacher</li>
+				
+			</ul>
+		</div>
+		
+		<h1></h1>
+	</body>
+</html>

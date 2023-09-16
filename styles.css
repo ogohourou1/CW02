@@ -1,0 +1,16 @@
+body{
+color:darkred;
+}
+.answer{
+	background-color: #FFE4C4;
+	color: #4B0082;
+}
+.website{
+	background-color: #FA8072;
+	color:black;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+h4{
+	color:#e1ca93;
+}

@@ -1,0 +1,42 @@
+h1{
+	font-size:14pt;
+	font-family: arial;
+}
+#artist{
+	font-weight: bold;
+	color: moccasin;
+}
+#title{
+	font-weight: normal;
+	color: khaki;
+}
+h2{
+	font-size:12pt;
+	font-family: arial;
+}
+#album{
+	font-weight: normal;
+	color: khaki;
+}
+#year{
+	font-weight: bold;
+	color: ivory;
+}
+p{
+	font-size: 14pt;
+	font-family: Trebuchet MS;
+	font-weight: bold;
+	color: gold;
+}
+.verse{
+	margin-left: 2cm;
+	margin-right:2cm;
+}
+.chorus{
+	font-style: italic;
+	margin-left: 4cm;
+	margin-right: 4cm;
+}
+body{
+	background-color: chocolate;
+}
